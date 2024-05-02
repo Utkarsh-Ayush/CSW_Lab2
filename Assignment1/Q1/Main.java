@@ -26,7 +26,7 @@ class Car{
     }
 
 }
-public class Mainn{
+public class Main{
     public static void main(String[] args) {
         Car myCar1 = new Car("Bugatti", "Chiron");
         Car myCar2 = new Car(null, null);
