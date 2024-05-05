@@ -19,10 +19,7 @@ class Car implements Comparable<Car>{
     @Override
     public String toString() {
         return "Car [ModelNo=" + ModelNo + ", name=" + name + ", stock=" + stock + "]";
-    }
-
-    
-
+    }    
 }
 
 public class CarApp {

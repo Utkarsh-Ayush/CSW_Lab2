@@ -40,7 +40,7 @@ public class Main {
         System.out.println("Enter the marks of the student:");
         double m=sc.nextDouble();
         Student found=new Student(n, a, m);
-
+        sc.close();
         
             if(list.contains(found)){
                 System.out.println("Student found");
